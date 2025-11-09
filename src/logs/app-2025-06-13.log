@@ -1,0 +1,20 @@
+[13/6/2025, 16:05:33] INFO: Sesión cerrada {"ip_cliente":"::ffff:127.0.0.1"}
+[13/6/2025, 16:05:33] INFO: Sesión cerrada {"ip_cliente":"::ffff:127.0.0.1"}
+[13/6/2025, 16:06:58] INFO: Inicio de sesión exitoso {"usuario_id":"2b76e73a-2073-438b-b39f-ac2b7e152d4d","correo":"luis2004hdez@gmail.com","ip_cliente":"::ffff:127.0.0.1","fecha_hora":"13/6/2025, 16:06:58"}
+[13/6/2025, 16:13:04] INFO: Sesión cerrada {"ip_cliente":"::ffff:127.0.0.1"}
+[13/6/2025, 16:13:04] INFO: Sesión cerrada {"ip_cliente":"::ffff:127.0.0.1"}
+[13/6/2025, 16:13:58] ERROR: Credenciales inválidas - Contraseña incorrecta {"codigo_error":"400","ip_cliente":"::ffff:127.0.0.1","usuario":"20221061@uthh.edu.mx"}
+[13/6/2025, 16:14:36] INFO: Inicio de sesión exitoso {"usuario_id":"b646c21c-3f81-4168-a29b-019f76d080c8","correo":"20221061@uthh.edu.mx","ip_cliente":"::ffff:127.0.0.1","fecha_hora":"13/6/2025, 16:14:36"}
+[13/6/2025, 16:30:17] INFO: Sesión cerrada {"ip_cliente":"::ffff:127.0.0.1"}
+[13/6/2025, 16:30:17] INFO: Sesión cerrada {"ip_cliente":"::ffff:127.0.0.1"}
+[13/6/2025, 16:30:47] INFO: Inicio de sesión exitoso {"usuario_id":"2b76e73a-2073-438b-b39f-ac2b7e152d4d","correo":"luis2004hdez@gmail.com","ip_cliente":"::ffff:127.0.0.1","fecha_hora":"13/6/2025, 16:30:47"}
+[13/6/2025, 23:35:28] INFO: Sesión cerrada {"ip_cliente":"::ffff:127.0.0.1"}
+[13/6/2025, 23:35:28] INFO: Sesión cerrada {"ip_cliente":"::ffff:127.0.0.1"}
+[13/6/2025, 23:35:57] INFO: Inicio de sesión exitoso {"usuario_id":"b646c21c-3f81-4168-a29b-019f76d080c8","correo":"20221061@uthh.edu.mx","ip_cliente":"::ffff:127.0.0.1","fecha_hora":"13/6/2025, 23:35:57"}
+[16/6/2025, 10:30:04] INFO: Sesión cerrada {"ip_cliente":"::ffff:127.0.0.1"}
+[16/6/2025, 10:30:04] INFO: Sesión cerrada {"ip_cliente":"::ffff:127.0.0.1"}
+[16/6/2025, 10:30:19] INFO: Inicio de sesión exitoso {"usuario_id":"b646c21c-3f81-4168-a29b-019f76d080c8","correo":"20221061@uthh.edu.mx","ip_cliente":"::ffff:127.0.0.1","fecha_hora":"16/6/2025, 10:30:19"}
+[16/6/2025, 18:06:10] INFO: Sesión cerrada {"ip_cliente":"::ffff:127.0.0.1"}
+[16/6/2025, 18:06:10] INFO: Sesión cerrada {"ip_cliente":"::ffff:127.0.0.1"}
+[16/6/2025, 18:06:51] ERROR: getaddrinfo ENOTFOUND dpg-d13h7bre5dus73eoma4g-a.oregon-postgres.render.com {"codigo_error":"No especificado","stack":"SequelizeHostNotFoundError: getaddrinfo ENOTFOUND dpg-d13h7bre5dus73eoma4g-a.oregon-postgres.render.com\n    at Client._connectionCallback (C:\\Users\\luishdez\\Desktop\\puntoshein\\backend\\node_modules\\sequelize\\lib\\dialects\\postgres\\connection-manager.js:136:24)\n    at Client._handleErrorWhileConnecting (C:\\Users\\luishdez\\Desktop\\puntoshein\\backend\\node_modules\\pg\\lib\\client.js:326:19)\n    at Client._handleErrorEvent (C:\\Users\\luishdez\\Desktop\\puntoshein\\backend\\node_modules\\pg\\lib\\client.js:336:19)\n    at Connection.emit (node:events:518:28)\n    at Socket.reportStreamError (C:\\Users\\luishdez\\Desktop\\puntoshein\\backend\\node_modules\\pg\\lib\\connection.js:57:12)\n    at Socket.emit (node:events:518:28)\n    at emitErrorNT (node:internal/streams/destroy:169:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","ip_cliente":"::ffff:127.0.0.1"}
+[16/6/2025, 18:11:26] INFO: Inicio de sesión exitoso {"usuario_id":"b646c21c-3f81-4168-a29b-019f76d080c8","correo":"20221061@uthh.edu.mx","ip_cliente":"::ffff:127.0.0.1","fecha_hora":"16/6/2025, 18:11:26"}

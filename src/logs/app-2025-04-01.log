@@ -1,0 +1,17 @@
+[1/4/2025, 0:50:48] ERROR: Credenciales inválidas - Contraseña incorrecta {"codigo_error":"400","ip_cliente":"::ffff:127.0.0.1","usuario":"20221061@uthh.edu.mx"}
+[1/4/2025, 0:50:49] ERROR: Credenciales inválidas - Contraseña incorrecta {"codigo_error":"400","ip_cliente":"::ffff:127.0.0.1","usuario":"20221061@uthh.edu.mx"}
+[1/4/2025, 0:53:37] WARN: Correo ya registrado {"codigo_error":"400","ip_cliente":"::ffff:127.0.0.1","usuario":"20221061@uthh.edu.mx"}
+[1/4/2025, 0:53:52] WARN: Teléfono ya registrado {"codigo_error":"400","ip_cliente":"::ffff:127.0.0.1","telefono":"7891129762"}
+[1/4/2025, 0:54:10] WARN: Intenta con otro nombre de usuario {"codigo_error":"400","ip_cliente":"::ffff:127.0.0.1","usuario":"luis2004"}
+[1/4/2025, 1:01:53] INFO: Usuario registrado exitosamente {"usuario_id":"4b903358-0d0c-4f37-847e-a9f6632af845","correo":"luisswww@uthh.edu.mx","ip_cliente":"::1"}
+[1/4/2025, 1:12:28] INFO: Usuario registrado exitosamente {"usuario_id":"1c917b79-09ab-473e-8e45-730ffc9b1290","correo":"ess@gmail.com","ip_cliente":"::1"}
+[1/4/2025, 1:13:36] INFO: Usuario registrado exitosamente {"usuario_id":"598967fb-b174-4930-9bd5-32f8e7aa02f8","correo":"rocio@gmail.com","ip_cliente":"::1"}
+[1/4/2025, 1:14:54] WARN: Correo ya registrado {"codigo_error":"400","ip_cliente":"::1","usuario":"20221061@uthh.edu.mx"}
+[1/4/2025, 1:14:54] WARN: Correo ya registrado {"codigo_error":"400","ip_cliente":"::1","usuario":"20221061@uthh.edu.mx"}
+[1/4/2025, 1:15:23] WARN: Teléfono ya registrado {"codigo_error":"400","ip_cliente":"::1","telefono":"4564654654"}
+[1/4/2025, 1:15:24] WARN: Teléfono ya registrado {"codigo_error":"400","ip_cliente":"::1","telefono":"4564654654"}
+[1/4/2025, 1:15:50] WARN: Nombre de usuario ya existe {"codigo_error":"400","ip_cliente":"::1","usuario":"Rocio23"}
+[1/4/2025, 1:15:57] INFO: Usuario registrado exitosamente {"usuario_id":"766f63c5-8c7c-4060-b884-c0d0f112daad","correo":"2022106s1@uthh.edu.mx","ip_cliente":"::1"}
+[1/4/2025, 13:36:55] ERROR: Credenciales inválidas - Contraseña incorrecta {"codigo_error":"400","ip_cliente":"::ffff:127.0.0.1","usuario":"20221061@uthh.edu.mx"}
+[1/4/2025, 13:39:13] ERROR: Credenciales inválidas - Usuario no encontrado {"codigo_error":"400","ip_cliente":"::ffff:127.0.0.1","usuario":"2022106hghjgh1@uthh.edu.mx"}
+[1/4/2025, 15:22:51] ERROR: getaddrinfo ENOTFOUND dpg-cviaebp5pdvs73eo5q90-a.oregon-postgres.render.com {"codigo_error":"500","stack":"SequelizeHostNotFoundError: getaddrinfo ENOTFOUND dpg-cviaebp5pdvs73eo5q90-a.oregon-postgres.render.com\n    at Client._connectionCallback (C:\\Users\\luishdez\\Desktop\\puntoshein\\backend\\node_modules\\sequelize\\lib\\dialects\\postgres\\connection-manager.js:136:24)\n    at Client._handleErrorWhileConnecting (C:\\Users\\luishdez\\Desktop\\puntoshein\\backend\\node_modules\\pg\\lib\\client.js:326:19)\n    at Client._handleErrorEvent (C:\\Users\\luishdez\\Desktop\\puntoshein\\backend\\node_modules\\pg\\lib\\client.js:336:19)\n    at Connection.emit (node:events:518:28)\n    at Socket.reportStreamError (C:\\Users\\luishdez\\Desktop\\puntoshein\\backend\\node_modules\\pg\\lib\\connection.js:57:12)\n    at Socket.emit (node:events:518:28)\n    at emitErrorNT (node:internal/streams/destroy:169:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","ip_cliente":"::ffff:127.0.0.1"}

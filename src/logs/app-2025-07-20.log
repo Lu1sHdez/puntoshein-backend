@@ -1,0 +1,6 @@
+[19/7/2025, 20:37:16] INFO: Inicio de sesión exitoso {"usuario_id":"2b76e73a-2073-438b-b39f-ac2b7e152d4d","correo":"luis2004hdez@gmail.com","ip_cliente":"::1","fecha_hora":"19/7/2025, 20:37:16"}
+[20/7/2025, 21:51:50] INFO: Inicio de sesión exitoso {"usuario_id":"2b76e73a-2073-438b-b39f-ac2b7e152d4d","correo":"luis2004hdez@gmail.com","ip_cliente":"::ffff:127.0.0.1","fecha_hora":"20/7/2025, 21:51:50"}
+[20/7/2025, 21:57:28] INFO: Sesión cerrada {"ip_cliente":"::ffff:127.0.0.1"}
+[20/7/2025, 22:06:40] INFO: Inicio de sesión exitoso {"usuario_id":"2b76e73a-2073-438b-b39f-ac2b7e152d4d","correo":"luis2004hdez@gmail.com","ip_cliente":"::ffff:127.0.0.1","fecha_hora":"20/7/2025, 22:06:40"}
+[20/7/2025, 22:08:11] INFO: Sesión cerrada {"ip_cliente":"::ffff:127.0.0.1"}
+[20/7/2025, 23:39:53] ERROR: Credenciales inválidas - Usuario no encontrado {"codigo_error":"400","ip_cliente":"::ffff:127.0.0.1","usuario":"20221061@uthh.edu.mx"}

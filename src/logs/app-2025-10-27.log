@@ -1,0 +1,12 @@
+[26/10/2025, 18:55:53] INFO: Inicio de sesión exitoso {"usuario_id":"4c4d86e0-036c-4b6e-9bac-394ecc0754ef","correo":"20221061@uthh.edu.mx","ip_cliente":"2806:10a6:10:9e49:5d73:8849:ab1d:6594","fecha_hora":"26/10/2025, 18:55:53"}
+[26/10/2025, 18:56:08] INFO: Sesión cerrada {"ip_cliente":"2806:10a6:10:9e49:5d73:8849:ab1d:6594"}
+[26/10/2025, 18:56:52] INFO: Inicio de sesión exitoso {"usuario_id":"35067a73-07c8-4aef-a781-a63939d84884","correo":"luis2004hdez@gmail.com","ip_cliente":"2806:10a6:10:9e49:5d73:8849:ab1d:6594","fecha_hora":"26/10/2025, 18:56:52"}
+[27/10/2025, 1:15:55] INFO: Sesión cerrada {"ip_cliente":"2806:10a6:10:2f12:a8f7:6432:e712:c1b2"}
+[27/10/2025, 2:07:07] INFO: Inicio de sesión exitoso {"usuario_id":"35067a73-07c8-4aef-a781-a63939d84884","correo":"luis2004hdez@gmail.com","ip_cliente":"::ffff:127.0.0.1","fecha_hora":"27/10/2025, 2:07:07"}
+[27/10/2025, 3:08:02] INFO: Inicio de sesión exitoso {"usuario_id":"35067a73-07c8-4aef-a781-a63939d84884","correo":"luis2004hdez@gmail.com","ip_cliente":"2806:10a6:10:2f12:d189:5205:3cd1:ae7d","fecha_hora":"27/10/2025, 3:08:02"}
+[27/10/2025, 3:08:43] INFO: Sesión cerrada {"ip_cliente":"2806:10a6:10:2f12:d189:5205:3cd1:ae7d"}
+[27/10/2025, 3:18:20] INFO: Inicio de sesión exitoso {"usuario_id":"35067a73-07c8-4aef-a781-a63939d84884","correo":"luis2004hdez@gmail.com","ip_cliente":"2806:10a6:10:2f12:a8f7:6432:e712:c1b2","fecha_hora":"27/10/2025, 3:18:20"}
+[27/10/2025, 3:19:38] INFO: Sesión cerrada {"ip_cliente":"2806:10a6:10:2f12:a8f7:6432:e712:c1b2"}
+[27/10/2025, 3:19:56] INFO: Inicio de sesión exitoso {"usuario_id":"35067a73-07c8-4aef-a781-a63939d84884","correo":"luis2004hdez@gmail.com","ip_cliente":"2806:10a6:10:2f12:a8f7:6432:e712:c1b2","fecha_hora":"27/10/2025, 3:19:56"}
+[27/10/2025, 3:29:09] INFO: Sesión cerrada {"ip_cliente":"2806:10a6:10:2f12:a8f7:6432:e712:c1b2"}
+[27/10/2025, 12:13:21] INFO: Sesión cerrada {"ip_cliente":"::ffff:127.0.0.1"}

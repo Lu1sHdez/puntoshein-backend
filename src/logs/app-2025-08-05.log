@@ -1,0 +1,12 @@
+[5/8/2025, 1:07:30] INFO: Inicio de sesión exitoso {"usuario_id":"aa7aeedc-9050-4532-bca4-3993bd631471","correo":"20221061@uthh.edu.mx","ip_cliente":"::ffff:127.0.0.1","fecha_hora":"5/8/2025, 1:07:30"}
+[5/8/2025, 3:46:48] INFO: Sesión cerrada {"ip_cliente":"::ffff:127.0.0.1"}
+[5/8/2025, 3:47:09] INFO: Inicio de sesión exitoso {"usuario_id":"2b76e73a-2073-438b-b39f-ac2b7e152d4d","correo":"luis2004hdez@gmail.com","ip_cliente":"::ffff:127.0.0.1","fecha_hora":"5/8/2025, 3:47:09"}
+[5/8/2025, 4:27:58] INFO: Sesión cerrada {"ip_cliente":"::ffff:127.0.0.1"}
+[5/8/2025, 4:36:04] INFO: Sesión cerrada {"ip_cliente":"::1"}
+[5/8/2025, 4:36:04] INFO: Sesión cerrada {"ip_cliente":"::1"}
+[5/8/2025, 4:36:58] INFO: Inicio de sesión exitoso {"usuario_id":"2b76e73a-2073-438b-b39f-ac2b7e152d4d","correo":"luis2004hdez@gmail.com","ip_cliente":"::ffff:127.0.0.1","fecha_hora":"5/8/2025, 4:36:58"}
+[5/8/2025, 4:44:06] INFO: Sesión cerrada {"ip_cliente":"::ffff:127.0.0.1"}
+[5/8/2025, 4:53:18] INFO: Inicio de sesión exitoso {"usuario_id":"aa7aeedc-9050-4532-bca4-3993bd631471","correo":"20221061@uthh.edu.mx","ip_cliente":"::ffff:127.0.0.1","fecha_hora":"5/8/2025, 4:53:18"}
+[5/8/2025, 4:55:51] INFO: Sesión cerrada {"ip_cliente":"::ffff:127.0.0.1"}
+[5/8/2025, 4:56:39] INFO: Inicio de sesión exitoso {"usuario_id":"2b76e73a-2073-438b-b39f-ac2b7e152d4d","correo":"luis2004hdez@gmail.com","ip_cliente":"::ffff:127.0.0.1","fecha_hora":"5/8/2025, 4:56:39"}
+[5/8/2025, 5:04:17] INFO: Sesión cerrada {"ip_cliente":"::ffff:127.0.0.1"}

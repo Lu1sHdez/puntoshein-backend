@@ -1,0 +1,1424 @@
+[
+    {
+        "id": 81,
+        "nombre": "Vestido moda ",
+        "descripcion": "Deslumbra con este hermoso vestido verde, diseñado para resaltar tu estilo con frescura y sofisticación. Confeccionado en una tela ligera y suave al tacto, ofrece una caída fluida que realza la silueta femenina de forma elegante y cómoda.",
+        "precio": "230.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1752873739/productos/producto_1752873735421.jpg",
+        "stock": 5,
+        "fecha_creacion": "2025-07-18T21:26:27.739Z",
+        "color": "verde",
+        "subcategoria_id": 11,
+        "subcategoria": {
+            "id": 11,
+            "nombre": "Vestido Casual",
+            "categoria_id": 7,
+            "categoria": {
+                "id": 7,
+                "nombre": "Vestidos"
+            }
+        },
+        "tallas": [
+            {
+                "id": 2,
+                "nombre": "M",
+                "stock": 5
+            }
+        ]
+    },
+    {
+        "id": 74,
+        "nombre": "Vestido floral verde",
+        "descripcion": "Luce fresca, elegante y natural con nuestro Vestido Verde Floral, diseñado para realzar tu estilo con un toque romántico. Su estampado de flores vibrantes sobre un fondo verde crea una armonía visual perfecta para la temporada primavera-verano.",
+        "precio": "200.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1752654560/productos/producto_1752654558770.jpg",
+        "stock": 11,
+        "fecha_creacion": "2025-07-16T08:30:02.543Z",
+        "color": "verde",
+        "subcategoria_id": 15,
+        "subcategoria": {
+            "id": 15,
+            "nombre": "Vestido Floral",
+            "categoria_id": 7,
+            "categoria": {
+                "id": 7,
+                "nombre": "Vestidos"
+            }
+        },
+        "tallas": [
+            {
+                "id": 3,
+                "nombre": "G",
+                "stock": 6
+            },
+            {
+                "id": 2,
+                "nombre": "M",
+                "stock": 5
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "nombre": "Conjunto pantalón y blusa negro ",
+        "descripcion": "Elegante conjunto de mujer en color negro, compuesto por pantalón y blusa de diseño liso. Ideal para lucir sofisticada en eventos casuales o formales. Su estilo minimalista resalta la figura y ofrece comodidad durante todo el día.",
+        "precio": "320.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1752656069/productos/producto_1752656069212.jpg",
+        "stock": 3,
+        "fecha_creacion": "2025-07-16T08:54:35.607Z",
+        "color": "negro",
+        "subcategoria_id": 25,
+        "subcategoria": {
+            "id": 25,
+            "nombre": "Conjunto casual",
+            "categoria_id": 48,
+            "categoria": {
+                "id": 48,
+                "nombre": "Conjuntos"
+            }
+        },
+        "tallas": [
+            {
+                "id": 4,
+                "nombre": "EG",
+                "stock": 1
+            },
+            {
+                "id": 3,
+                "nombre": "G",
+                "stock": 2
+            }
+        ]
+    },
+    {
+        "id": 76,
+        "nombre": "Conjunto Falda Rosa y Camisa Estampada Blanca",
+        "descripcion": "Conjunto femenino compuesto por una elegante falda color rosa y una camisa blanca con estampado artístico en tonos rosados desvanecidos. Ideal para un look casual con estilo, este conjunto combina frescura y sofisticación para eventos de día o salidas informales.",
+        "precio": "250.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1752656623/productos/producto_1752656617143.jpg",
+        "stock": 7,
+        "fecha_creacion": "2025-07-16T09:07:04.140Z",
+        "color": "rosa",
+        "subcategoria_id": 26,
+        "subcategoria": {
+            "id": 26,
+            "nombre": "Ropa femenina",
+            "categoria_id": 48,
+            "categoria": {
+                "id": 48,
+                "nombre": "Conjuntos"
+            }
+        },
+        "tallas": [
+            {
+                "id": 3,
+                "nombre": "G",
+                "stock": 4
+            },
+            {
+                "id": 2,
+                "nombre": "M",
+                "stock": 3
+            }
+        ]
+    },
+    {
+        "id": 77,
+        "nombre": "Chaqueta casual para mujer",
+        "descripcion": "Chaqueta de estilo casual ideal para clima fresco. Confeccionada con materiales suaves que brindan comodidad y estilo. Su tono café neutro la hace combinable con todo tipo de outfits. Perfecta para uso diario o salidas informales.",
+        "precio": "150.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1752659426/productos/producto_1752659424801.jpg",
+        "stock": 5,
+        "fecha_creacion": "2025-07-16T09:50:44.727Z",
+        "color": "cafe",
+        "subcategoria_id": 27,
+        "subcategoria": {
+            "id": 27,
+            "nombre": "Chamarras y chaquetas",
+            "categoria_id": 50,
+            "categoria": {
+                "id": 50,
+                "nombre": "Ropa exterior"
+            }
+        },
+        "tallas": [
+            {
+                "id": 2,
+                "nombre": "M",
+                "stock": 5
+            }
+        ]
+    },
+    {
+        "id": 78,
+        "nombre": "Abrigo Largo con Diseño Blanco y Negro",
+        "descripcion": "Abrigo tipo blusa de corte largo, con frente abierto y diseño moderno en tonos blanco y negro. Confeccionado en tela ligera, cubre más allá de la cintura, ideal para looks casuales o semiformales. Perfecto para mujer, cómodo y con caída suave.",
+        "precio": "250.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1752662157/productos/producto_1752662157776.jpg",
+        "stock": 6,
+        "fecha_creacion": "2025-07-16T10:36:02.535Z",
+        "color": "negro",
+        "subcategoria_id": 27,
+        "subcategoria": {
+            "id": 27,
+            "nombre": "Chamarras y chaquetas",
+            "categoria_id": 50,
+            "categoria": {
+                "id": 50,
+                "nombre": "Ropa exterior"
+            }
+        },
+        "tallas": [
+            {
+                "id": 2,
+                "nombre": "M",
+                "stock": 6
+            }
+        ]
+    },
+    {
+        "id": 79,
+        "nombre": "Vestido floral ",
+        "descripcion": "Vestido casual con estampado floral, ideal para primavera y verano. Confeccionado en tela ligera, manga corta y corte en la cintura.",
+        "precio": "230.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1752664690/productos/producto_1752664690652.jpg",
+        "stock": 5,
+        "fecha_creacion": "2025-07-16T11:18:15.774Z",
+        "color": "cafe ",
+        "subcategoria_id": 15,
+        "subcategoria": {
+            "id": 15,
+            "nombre": "Vestido Floral",
+            "categoria_id": 7,
+            "categoria": {
+                "id": 7,
+                "nombre": "Vestidos"
+            }
+        },
+        "tallas": [
+            {
+                "id": 3,
+                "nombre": "G",
+                "stock": 5
+            }
+        ]
+    },
+    {
+        "id": 80,
+        "nombre": "Vestido floral azul",
+        "descripcion": "Vestido casual en color azul marino, con estampado de flores dibujadas. Ideal para primavera o verano. Tela fresca, corte cómodo y estilo moderno.",
+        "precio": "350.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1752665729/productos/producto_1752665728993.jpg",
+        "stock": 3,
+        "fecha_creacion": "2025-07-16T11:35:36.034Z",
+        "color": "Azul marino",
+        "subcategoria_id": 15,
+        "subcategoria": {
+            "id": 15,
+            "nombre": "Vestido Floral",
+            "categoria_id": 7,
+            "categoria": {
+                "id": 7,
+                "nombre": "Vestidos"
+            }
+        },
+        "tallas": [
+            {
+                "id": 2,
+                "nombre": "M",
+                "stock": 3
+            }
+        ]
+    },
+    {
+        "id": 82,
+        "nombre": " Falda Short Amarilla",
+        "descripcion": "Luce fresca y con estilo con esta falda short color amarillo vibrante, perfecta para días soleados o salidas casuales. Su diseño versátil combina la apariencia femenina de una falda con la practicidad de un short interno, brindándote total libertad de movimiento y comodidad.",
+        "precio": "100.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753146365/productos/producto_1753146366423.jpg",
+        "stock": 3,
+        "fecha_creacion": "2025-07-22T01:06:16.899Z",
+        "color": "Amarillo",
+        "subcategoria_id": 29,
+        "subcategoria": {
+            "id": 29,
+            "nombre": "Faldas femeninas",
+            "categoria_id": 54,
+            "categoria": {
+                "id": 54,
+                "nombre": "Faldas"
+            }
+        },
+        "tallas": [
+            {
+                "id": 2,
+                "nombre": "M",
+                "stock": 3
+            }
+        ]
+    },
+    {
+        "id": 83,
+        "nombre": " Falda Estampada",
+        "descripcion": " Parte de la moda femenina, las faldas estampadas son una opción versátil para cualquier temporada. Disponibles en una variedad de patrones y colores, estas faldas permiten crear looks casuales o más formales según el estilo personal.",
+        "precio": "150.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753166672/productos/producto_1753166671232.jpg",
+        "stock": 5,
+        "fecha_creacion": "2025-07-22T06:44:36.677Z",
+        "color": "Estampado",
+        "subcategoria_id": 29,
+        "subcategoria": {
+            "id": 29,
+            "nombre": "Faldas femeninas",
+            "categoria_id": 54,
+            "categoria": {
+                "id": 54,
+                "nombre": "Faldas"
+            }
+        },
+        "tallas": [
+            {
+                "id": 2,
+                "nombre": "M",
+                "stock": 5
+            }
+        ]
+    },
+    {
+        "id": 84,
+        "nombre": "Vestido Floral Blanca",
+        "descripcion": "Un vestido femenino y delicado, ideal para eventos especiales o para un look casual y fresco. El estampado floral en tonos suaves sobre un fondo blanco lo convierte en una prenda elegante y versátil.",
+        "precio": "260.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753166828/productos/producto_1753166826746.jpg",
+        "stock": 6,
+        "fecha_creacion": "2025-07-22T06:47:12.248Z",
+        "color": "Blanco",
+        "subcategoria_id": 15,
+        "subcategoria": {
+            "id": 15,
+            "nombre": "Vestido Floral",
+            "categoria_id": 7,
+            "categoria": {
+                "id": 7,
+                "nombre": "Vestidos"
+            }
+        },
+        "tallas": [
+            {
+                "id": 2,
+                "nombre": "M",
+                "stock": 6
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "nombre": "Blusa rosa",
+        "descripcion": "Una prenda esencial en el armario de cualquier joven, esta blusa rosa combina elegancia y estilo moderno. Perfecta para crear looks casuales o más sofisticados, dependiendo de la ocasión.",
+        "precio": "100.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753166940/productos/producto_1753166939182.jpg",
+        "stock": 2,
+        "fecha_creacion": "2025-07-22T06:49:03.858Z",
+        "color": "Rosa",
+        "subcategoria_id": 30,
+        "subcategoria": {
+            "id": 30,
+            "nombre": "Blusas dama",
+            "categoria_id": 8,
+            "categoria": {
+                "id": 8,
+                "nombre": "Blusas"
+            }
+        },
+        "tallas": [
+            {
+                "id": 1,
+                "nombre": "CH",
+                "stock": 2
+            }
+        ]
+    },
+    {
+        "id": 86,
+        "nombre": " Blusa Lila de Moda",
+        "descripcion": "Esta blusa en tonos morados o lilas es perfecta para agregar un toque de color a cualquier look. Su diseño moderno y femenino hace que sea fácil de combinar tanto con prendas casuales como más elegantes.",
+        "precio": "120.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753167069/productos/producto_1753167068479.jpg",
+        "stock": 6,
+        "fecha_creacion": "2025-07-22T06:51:13.398Z",
+        "color": "Morado",
+        "subcategoria_id": 30,
+        "subcategoria": {
+            "id": 30,
+            "nombre": "Blusas dama",
+            "categoria_id": 8,
+            "categoria": {
+                "id": 8,
+                "nombre": "Blusas"
+            }
+        },
+        "tallas": [
+            {
+                "id": 2,
+                "nombre": "M",
+                "stock": 6
+            }
+        ]
+    },
+    {
+        "id": 87,
+        "nombre": " Chaqueta Larga Estampada",
+        "descripcion": "Esta chaqueta larga con botones es una pieza elegante y versátil que puede usarse tanto de día como de noche. Su estilo abierto y fluido, combinado con un estampado único de dibujos, la convierte en una opción moderna y chic para cualquier ocasión.",
+        "precio": "230.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753167191/productos/producto_1753167190577.jpg",
+        "stock": 1,
+        "fecha_creacion": "2025-07-22T06:53:15.670Z",
+        "color": "Verde",
+        "subcategoria_id": 27,
+        "subcategoria": {
+            "id": 27,
+            "nombre": "Chamarras y chaquetas",
+            "categoria_id": 50,
+            "categoria": {
+                "id": 50,
+                "nombre": "Ropa exterior"
+            }
+        },
+        "tallas": [
+            {
+                "id": 3,
+                "nombre": "G",
+                "stock": 1
+            }
+        ]
+    },
+    {
+        "id": 88,
+        "nombre": "Short Interior Negro",
+        "descripcion": "Este short interior negro está diseñado para ofrecer comodidad y soporte. Hecho con materiales suaves y elásticos, es ideal para usar debajo de ropa exterior, brindando una sensación de confort durante todo el día. Perfecto para cualquier temporada.",
+        "precio": "160.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753167424/productos/producto_1753167422736.jpg",
+        "stock": 7,
+        "fecha_creacion": "2025-07-22T06:57:41.607Z",
+        "color": "Negro",
+        "subcategoria_id": 31,
+        "subcategoria": {
+            "id": 31,
+            "nombre": "Short Interior",
+            "categoria_id": 55,
+            "categoria": {
+                "id": 55,
+                "nombre": "Short "
+            }
+        },
+        "tallas": [
+            {
+                "id": 3,
+                "nombre": "G",
+                "stock": 2
+            },
+            {
+                "id": 2,
+                "nombre": "M",
+                "stock": 5
+            }
+        ]
+    },
+    {
+        "id": 89,
+        "nombre": "Blusa para dama",
+        "descripcion": "Esta blusa roja es una prenda vibrante y elegante, perfecta para cualquier ocasión. Su color intenso y su diseño femenino la convierten en una opción versátil para outfits tanto casuales como formales.",
+        "precio": "180.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753167615/productos/producto_1753167614058.jpg",
+        "stock": 5,
+        "fecha_creacion": "2025-07-22T07:00:20.026Z",
+        "color": "Rojo",
+        "subcategoria_id": 30,
+        "subcategoria": {
+            "id": 30,
+            "nombre": "Blusas dama",
+            "categoria_id": 8,
+            "categoria": {
+                "id": 8,
+                "nombre": "Blusas"
+            }
+        },
+        "tallas": [
+            {
+                "id": 3,
+                "nombre": "G",
+                "stock": 5
+            }
+        ]
+    },
+    {
+        "id": 90,
+        "nombre": "Falda para chica",
+        "descripcion": "Confeccionada en materiales frescos y ligeros, esta falda roja con puntos blancos es perfecta para los días cálidos. Su diseño alegre y colorido la convierte en una opción ideal para la primavera y el verano, añadiendo un toque de frescura y diversión a tu atuendo.",
+        "precio": "102.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753167774/productos/producto_1753167773684.jpg",
+        "stock": 2,
+        "fecha_creacion": "2025-07-22T07:02:58.179Z",
+        "color": "rojo",
+        "subcategoria_id": 29,
+        "subcategoria": {
+            "id": 29,
+            "nombre": "Faldas femeninas",
+            "categoria_id": 54,
+            "categoria": {
+                "id": 54,
+                "nombre": "Faldas"
+            }
+        },
+        "tallas": [
+            {
+                "id": 3,
+                "nombre": "G",
+                "stock": 2
+            }
+        ]
+    },
+    {
+        "id": 91,
+        "nombre": "Falda Café con Estampado",
+        "descripcion": "Perfecta para combinar con blusas lisas o prendas de colores neutros para resaltar el estampado.",
+        "precio": "120.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753167921/productos/producto_1753167920524.jpg",
+        "stock": 2,
+        "fecha_creacion": "2025-07-22T07:05:35.332Z",
+        "color": "Estampado",
+        "subcategoria_id": 29,
+        "subcategoria": {
+            "id": 29,
+            "nombre": "Faldas femeninas",
+            "categoria_id": 54,
+            "categoria": {
+                "id": 54,
+                "nombre": "Faldas"
+            }
+        },
+        "tallas": [
+            {
+                "id": 2,
+                "nombre": "M",
+                "stock": 2
+            }
+        ]
+    },
+    {
+        "id": 92,
+        "nombre": "Camisa Dama Blanca",
+        "descripcion": "La camisa blanca para dama es un básico atemporal en cualquier armario. Su diseño clásico y elegante la hace perfecta para diversas ocasiones, desde un look profesional en la oficina hasta un conjunto más relajado para el día a día. Es la prenda perfecta para combinar con cualquier otra pieza.",
+        "precio": "150.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753168050/productos/producto_1753168049311.jpg",
+        "stock": 3,
+        "fecha_creacion": "2025-07-22T07:08:28.191Z",
+        "color": "Blanco",
+        "subcategoria_id": 30,
+        "subcategoria": {
+            "id": 30,
+            "nombre": "Blusas dama",
+            "categoria_id": 8,
+            "categoria": {
+                "id": 8,
+                "nombre": "Blusas"
+            }
+        },
+        "tallas": [
+            {
+                "id": 2,
+                "nombre": "M",
+                "stock": 3
+            }
+        ]
+    },
+    {
+        "id": 93,
+        "nombre": "Mochila Negra de Dama",
+        "descripcion": "Mochila elegante y versátil de color negro, diseñada especialmente para mujeres. Ideal para el uso diario, ofrece estilo, funcionalidad y comodidad en una sola pieza. Su diseño moderno combina con cualquier outfit.",
+        "precio": "300.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753168236/productos/producto_1753168235432.jpg",
+        "stock": 1,
+        "fecha_creacion": "2025-07-22T07:10:40.484Z",
+        "color": "Negro",
+        "subcategoria_id": 32,
+        "subcategoria": {
+            "id": 32,
+            "nombre": "Mochilas",
+            "categoria_id": 56,
+            "categoria": {
+                "id": 56,
+                "nombre": " Accesorios Femeninos"
+            }
+        },
+        "tallas": [
+            {
+                "id": 9,
+                "nombre": "Unitalla",
+                "stock": 1
+            }
+        ]
+    },
+    {
+        "id": 94,
+        "nombre": "Mochila Cartera Femenina",
+        "descripcion": "Esta mochila cartera femenina combina elegancia y funcionalidad en una sola pieza. Diseñada con el estilo estructurado de una cartera clásica y la comodidad de una mochila, es perfecta para mujeres modernas que desean un accesorio práctico sin perder el toque chic. Ideal para salidas casuales, el trabajo o el día a día, cuenta con correas ajustables, compartimentos seguros y un diseño compacto que realza cualquier look.",
+        "precio": "230.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753168435/productos/producto_1753168434951.jpg",
+        "stock": 1,
+        "fecha_creacion": "2025-07-22T07:14:00.066Z",
+        "color": "Verde",
+        "subcategoria_id": 33,
+        "subcategoria": {
+            "id": 33,
+            "nombre": "Carteras",
+            "categoria_id": 56,
+            "categoria": {
+                "id": 56,
+                "nombre": " Accesorios Femeninos"
+            }
+        },
+        "tallas": [
+            {
+                "id": 9,
+                "nombre": "Unitalla",
+                "stock": 1
+            }
+        ]
+    },
+    {
+        "id": 95,
+        "nombre": "Mochila Negra para Dama",
+        "descripcion": "Esta mochila negra para dama es el equilibrio perfecto entre elegancia y funcionalidad. Con un diseño moderno y discreto, es ideal para complementar cualquier look, desde el más casual hasta el más sofisticado. Su color neutro permite combinarla fácilmente con cualquier outfit.",
+        "precio": "350.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753168544/productos/producto_1753168543678.jpg",
+        "stock": 1,
+        "fecha_creacion": "2025-07-22T07:15:48.408Z",
+        "color": "Negro",
+        "subcategoria_id": 32,
+        "subcategoria": {
+            "id": 32,
+            "nombre": "Mochilas",
+            "categoria_id": 56,
+            "categoria": {
+                "id": 56,
+                "nombre": " Accesorios Femeninos"
+            }
+        },
+        "tallas": [
+            {
+                "id": 9,
+                "nombre": "Unitalla",
+                "stock": 1
+            }
+        ]
+    },
+    {
+        "id": 96,
+        "nombre": " Blusa Estampada",
+        "descripcion": "Blusa femenina con un encantador estampado de gatos, ideal para mujeres que aman los diseños originales y llenos de personalidad. ",
+        "precio": "150.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753168659/productos/producto_1753168657405.jpg",
+        "stock": 3,
+        "fecha_creacion": "2025-07-22T07:17:45.457Z",
+        "color": "Estampado",
+        "subcategoria_id": 30,
+        "subcategoria": {
+            "id": 30,
+            "nombre": "Blusas dama",
+            "categoria_id": 8,
+            "categoria": {
+                "id": 8,
+                "nombre": "Blusas"
+            }
+        },
+        "tallas": [
+            {
+                "id": 3,
+                "nombre": "G",
+                "stock": 3
+            }
+        ]
+    },
+    {
+        "id": 97,
+        "nombre": "Blusa Blanca de Dama",
+        "descripcion": "Una prenda clásica y esencial en todo guardarropa femenino. Esta blusa blanca de dama destaca por su versatilidad, ya que se adapta fácilmente a cualquier estilo o ocasión. Ideal para combinar con jeans, faldas o pantalones de vestir, su diseño elegante y limpio aporta frescura y sofisticación a cualquier look.",
+        "precio": "150.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753168783/productos/producto_1753168781697.jpg",
+        "stock": 8,
+        "fecha_creacion": "2025-07-22T07:19:47.418Z",
+        "color": "Blanco",
+        "subcategoria_id": 30,
+        "subcategoria": {
+            "id": 30,
+            "nombre": "Blusas dama",
+            "categoria_id": 8,
+            "categoria": {
+                "id": 8,
+                "nombre": "Blusas"
+            }
+        },
+        "tallas": [
+            {
+                "id": 3,
+                "nombre": "G",
+                "stock": 5
+            },
+            {
+                "id": 2,
+                "nombre": "M",
+                "stock": 3
+            }
+        ]
+    },
+    {
+        "id": 98,
+        "nombre": "Vestido Floral Estampado para Dama",
+        "descripcion": "Este vestido floral estampado es una prenda femenina, fresca y encantadora. Ideal para destacar con un look romántico y alegre, su diseño lleno de flores aporta un toque natural y sofisticado que lo hace perfecto para diversas ocasiones.",
+        "precio": "250.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753168916/productos/producto_1753168915800.jpg",
+        "stock": 3,
+        "fecha_creacion": "2025-07-22T07:22:02.395Z",
+        "color": "Estampado",
+        "subcategoria_id": 15,
+        "subcategoria": {
+            "id": 15,
+            "nombre": "Vestido Floral",
+            "categoria_id": 7,
+            "categoria": {
+                "id": 7,
+                "nombre": "Vestidos"
+            }
+        },
+        "tallas": [
+            {
+                "id": 10,
+                "nombre": "L",
+                "stock": 3
+            }
+        ]
+    },
+    {
+        "id": 99,
+        "nombre": "Vestido Gris Texturizado",
+        "descripcion": "Este vestido gris combina estilo y comodidad con una textura suave tipo tejida o afelpada, ideal para temporadas frescas. Su diseño sencillo pero elegante lo convierte en una prenda versátil, perfecta tanto para uso casual como para un look más sofisticado con los accesorios adecuados.",
+        "precio": "320.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753169067/productos/producto_1753169066012.jpg",
+        "stock": 2,
+        "fecha_creacion": "2025-07-22T07:24:33.437Z",
+        "color": "Gris",
+        "subcategoria_id": 11,
+        "subcategoria": {
+            "id": 11,
+            "nombre": "Vestido Casual",
+            "categoria_id": 7,
+            "categoria": {
+                "id": 7,
+                "nombre": "Vestidos"
+            }
+        },
+        "tallas": [
+            {
+                "id": 10,
+                "nombre": "L",
+                "stock": 2
+            }
+        ]
+    },
+    {
+        "id": 100,
+        "nombre": "Vestido estampado",
+        "descripcion": "Este vestido beige con estampado es una prenda femenina y sofisticada, perfecta para quienes buscan un estilo moderno con un toque suave y elegante. Su color neutro permite combinarlo fácilmente con accesorios llamativos o calzado en tonos contrastantes, haciendo que destaque sin perder delicadeza.",
+        "precio": "340.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753169195/productos/producto_1753169193692.jpg",
+        "stock": 3,
+        "fecha_creacion": "2025-07-22T07:26:38.768Z",
+        "color": "Estampado",
+        "subcategoria_id": 11,
+        "subcategoria": {
+            "id": 11,
+            "nombre": "Vestido Casual",
+            "categoria_id": 7,
+            "categoria": {
+                "id": 7,
+                "nombre": "Vestidos"
+            }
+        },
+        "tallas": [
+            {
+                "id": 10,
+                "nombre": "L",
+                "stock": 3
+            }
+        ]
+    },
+    {
+        "id": 101,
+        "nombre": "Camisa Estampada para Dama",
+        "descripcion": "Esta prenda destaca por su diseño audaz y moderno, ideal para mujeres que buscan expresar su estilo con originalidad.",
+        "precio": "160.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753169355/productos/producto_1753169353705.jpg",
+        "stock": 1,
+        "fecha_creacion": "2025-07-22T07:29:21.796Z",
+        "color": "Estampado",
+        "subcategoria_id": 30,
+        "subcategoria": {
+            "id": 30,
+            "nombre": "Blusas dama",
+            "categoria_id": 8,
+            "categoria": {
+                "id": 8,
+                "nombre": "Blusas"
+            }
+        },
+        "tallas": [
+            {
+                "id": 10,
+                "nombre": "L",
+                "stock": 1
+            }
+        ]
+    },
+    {
+        "id": 102,
+        "nombre": "Pantalón Azul Marino para Dama",
+        "descripcion": "Este pantalón azul marino es una prenda esencial en el guardarropa femenino. Su color elegante y versátil permite combinarlo fácilmente con blusas, camisas o chaquetas, creando outfits tanto formales como casuales. Ideal para toda ocasión.",
+        "precio": "230.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753169539/productos/producto_1753169538010.jpg",
+        "stock": 2,
+        "fecha_creacion": "2025-07-22T07:32:23.869Z",
+        "color": "Azul marino",
+        "subcategoria_id": 34,
+        "subcategoria": {
+            "id": 34,
+            "nombre": "Pantalones",
+            "categoria_id": 57,
+            "categoria": {
+                "id": 57,
+                "nombre": "Moda Femenina"
+            }
+        },
+        "tallas": [
+            {
+                "id": 2,
+                "nombre": "M",
+                "stock": 2
+            }
+        ]
+    },
+    {
+        "id": 103,
+        "nombre": "Vestido Rosa Texturizado",
+        "descripcion": "Este vestido rosa para dama combina calidez y estilo en una prenda versátil y elegante. Confeccionado en una tela tipo medio caliente o con textura (como punto, canalé o afelpado), es perfecto para días frescos. Su diseño ajustado o ligeramente suelto se adapta al cuerpo con suavidad, ideal para usar solo o acompañado de una chaqueta ligera.",
+        "precio": "320.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753169697/productos/producto_1753169696547.jpg",
+        "stock": 2,
+        "fecha_creacion": "2025-07-22T07:35:01.877Z",
+        "color": "Rosa",
+        "subcategoria_id": 11,
+        "subcategoria": {
+            "id": 11,
+            "nombre": "Vestido Casual",
+            "categoria_id": 7,
+            "categoria": {
+                "id": 7,
+                "nombre": "Vestidos"
+            }
+        },
+        "tallas": [
+            {
+                "id": 10,
+                "nombre": "L",
+                "stock": 2
+            }
+        ]
+    },
+    {
+        "id": 104,
+        "nombre": "Camisa oversize ",
+        "descripcion": "Con un corte amplio y desenfadado, esta camisa tipo chaqueta aporta un toque urbano y moderno. Su estilo desabotonado permite crear looks en capas, cómodos y con mucho estilo, perfectos para una moda sin esfuerzo.",
+        "precio": "150.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753169830/productos/producto_1753169830004.jpg",
+        "stock": 2,
+        "fecha_creacion": "2025-07-22T07:37:17.559Z",
+        "color": "Beige",
+        "subcategoria_id": 27,
+        "subcategoria": {
+            "id": 27,
+            "nombre": "Chamarras y chaquetas",
+            "categoria_id": 50,
+            "categoria": {
+                "id": 50,
+                "nombre": "Ropa exterior"
+            }
+        },
+        "tallas": [
+            {
+                "id": 10,
+                "nombre": "L",
+                "stock": 2
+            }
+        ]
+    },
+    {
+        "id": 105,
+        "nombre": "Chaqueta Negra para Dam",
+        "descripcion": "Versátil y elegante, esta camisa tipo chaqueta en color negro es ideal para usar como prenda ligera en cualquier temporada. Su diseño desabotonado permite llevarla abierta sobre camisetas, tops o vestidos, logrando un look moderno, sobrio y con estilo. Perfecta para outfits casuales o más arreglados según cómo la combines.",
+        "precio": "320.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753169973/productos/producto_1753169972190.jpg",
+        "stock": 2,
+        "fecha_creacion": "2025-07-22T07:39:37.550Z",
+        "color": "Negro",
+        "subcategoria_id": 35,
+        "subcategoria": {
+            "id": 35,
+            "nombre": "Camisa",
+            "categoria_id": 50,
+            "categoria": {
+                "id": 50,
+                "nombre": "Ropa exterior"
+            }
+        },
+        "tallas": [
+            {
+                "id": 10,
+                "nombre": "L",
+                "stock": 2
+            }
+        ]
+    },
+    {
+        "id": 106,
+        "nombre": "Monedero Naranja para Dama",
+        "descripcion": "Este monedero de color naranja es un accesorio vibrante y funcional, ideal para quienes desean llevar sus monedas, billetes y tarjetas con estilo. Su color alegre y llamativo lo convierte en una pieza que destaca dentro del bolso, facilitando su localización y añadiendo un toque de energía a tu look diario.",
+        "precio": "160.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753170080/productos/producto_1753170079868.jpg",
+        "stock": 1,
+        "fecha_creacion": "2025-07-22T07:41:24.248Z",
+        "color": "Naranja",
+        "subcategoria_id": 36,
+        "subcategoria": {
+            "id": 36,
+            "nombre": "Monedero",
+            "categoria_id": 56,
+            "categoria": {
+                "id": 56,
+                "nombre": " Accesorios Femeninos"
+            }
+        },
+        "tallas": [
+            {
+                "id": 9,
+                "nombre": "Unitalla",
+                "stock": 1
+            }
+        ]
+    },
+    {
+        "id": 107,
+        "nombre": "Sudadera verde estampado",
+        "descripcion": "Camisa femenina en color verde con estampado decorativo, ideal para destacar con un look moderno y fresco. Su diseño combina elegancia y originalidad, perfecta para mujeres que buscan salir de lo clásico sin perder estilo.",
+        "precio": "100.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753170308/productos/producto_1753170307590.jpg",
+        "stock": 2,
+        "fecha_creacion": "2025-07-22T07:45:12.914Z",
+        "color": "Verde",
+        "subcategoria_id": 37,
+        "subcategoria": {
+            "id": 37,
+            "nombre": "Sudadera ",
+            "categoria_id": 51,
+            "categoria": {
+                "id": 51,
+                "nombre": "Abrigos"
+            }
+        },
+        "tallas": [
+            {
+                "id": 10,
+                "nombre": "L",
+                "stock": 2
+            }
+        ]
+    },
+    {
+        "id": 108,
+        "nombre": "Aretes de dama",
+        "descripcion": "Elegantes y femeninos, estos aretes son el complemento ideal para realzar cualquier look. Su diseño versátil permite usarlos en el día a día o en ocasiones especiales, añadiendo un toque de estilo y sofisticación a tu outfit.",
+        "precio": "80.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753170444/productos/producto_1753170443354.jpg",
+        "stock": 1,
+        "fecha_creacion": "2025-07-22T07:47:28.294Z",
+        "color": "Plata",
+        "subcategoria_id": 38,
+        "subcategoria": {
+            "id": 38,
+            "nombre": "Aretes",
+            "categoria_id": 56,
+            "categoria": {
+                "id": 56,
+                "nombre": " Accesorios Femeninos"
+            }
+        },
+        "tallas": [
+            {
+                "id": 9,
+                "nombre": "Unitalla",
+                "stock": 1
+            }
+        ]
+    },
+    {
+        "id": 109,
+        "nombre": "Aretes Dorado",
+        "descripcion": "Clásicos y sofisticados, estos aretes dorados son el complemento perfecto para cualquier ocasión. Su acabado brillante en tono dorado aporta un toque de elegancia y calidez, ideal para realzar el rostro y completar un look femenino y moderno.",
+        "precio": "110.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753170596/productos/producto_1753170595354.jpg",
+        "stock": 1,
+        "fecha_creacion": "2025-07-22T07:50:00.855Z",
+        "color": "Dorado",
+        "subcategoria_id": 38,
+        "subcategoria": {
+            "id": 38,
+            "nombre": "Aretes",
+            "categoria_id": 56,
+            "categoria": {
+                "id": 56,
+                "nombre": " Accesorios Femeninos"
+            }
+        },
+        "tallas": [
+            {
+                "id": 9,
+                "nombre": "Unitalla",
+                "stock": 1
+            }
+        ]
+    },
+    {
+        "id": 110,
+        "nombre": "Vestido Rosa para Dama",
+        "descripcion": "Este vestido rosa es una prenda femenina, delicada y con mucho estilo. Perfecto para ocasiones especiales o para el día a día, su color suave transmite dulzura y elegancia. Su corte favorecedor se adapta a diferentes tipos de cuerpo, brindando comodidad y sofisticación en un solo diseño.",
+        "precio": "320.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753170745/productos/producto_1753170744047.jpg",
+        "stock": 5,
+        "fecha_creacion": "2025-07-22T07:52:29.662Z",
+        "color": "Rosa",
+        "subcategoria_id": 11,
+        "subcategoria": {
+            "id": 11,
+            "nombre": "Vestido Casual",
+            "categoria_id": 7,
+            "categoria": {
+                "id": 7,
+                "nombre": "Vestidos"
+            }
+        },
+        "tallas": [
+            {
+                "id": 2,
+                "nombre": "M",
+                "stock": 5
+            }
+        ]
+    },
+    {
+        "id": 111,
+        "nombre": "Falda de Mezclilla para Dama",
+        "descripcion": "Clásica y versátil, esta falda de mezclilla es una prenda infaltable en el guardarropa femenino. Su diseño atemporal permite crear looks casuales, modernos o con un toque retro, dependiendo de cómo la combines. Ideal para todas las estaciones y estilos.",
+        "precio": "220.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753170868/productos/producto_1753170867275.jpg",
+        "stock": 6,
+        "fecha_creacion": "2025-07-22T07:54:32.301Z",
+        "color": "Mezclilla",
+        "subcategoria_id": 29,
+        "subcategoria": {
+            "id": 29,
+            "nombre": "Faldas femeninas",
+            "categoria_id": 54,
+            "categoria": {
+                "id": 54,
+                "nombre": "Faldas"
+            }
+        },
+        "tallas": [
+            {
+                "id": 2,
+                "nombre": "M",
+                "stock": 6
+            }
+        ]
+    },
+    {
+        "id": 112,
+        "nombre": "Monedero rojo",
+        "descripcion": "Este monedero rojo combina elegancia y funcionalidad en un diseño compacto y vibrante. Su color intenso lo convierte en un accesorio llamativo y fácil de encontrar dentro del bolso. Ideal para guardar monedas, billetes y tarjetas con estilo y seguridad.",
+        "precio": "200.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753171001/productos/producto_1753171000093.jpg",
+        "stock": 2,
+        "fecha_creacion": "2025-07-22T07:56:45.259Z",
+        "color": "Rojo",
+        "subcategoria_id": 36,
+        "subcategoria": {
+            "id": 36,
+            "nombre": "Monedero",
+            "categoria_id": 56,
+            "categoria": {
+                "id": 56,
+                "nombre": " Accesorios Femeninos"
+            }
+        },
+        "tallas": [
+            {
+                "id": 9,
+                "nombre": "Unitalla",
+                "stock": 2
+            }
+        ]
+    },
+    {
+        "id": 113,
+        "nombre": "Monedero Beige",
+        "descripcion": "Elegante y funcional, este monedero en tono beige es perfecto para llevar tus monedas, billetes y tarjetas de forma segura y con estilo. ",
+        "precio": "200.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753171139/productos/producto_1753171138340.jpg",
+        "stock": 6,
+        "fecha_creacion": "2025-07-22T07:59:03.402Z",
+        "color": "Beige",
+        "subcategoria_id": 36,
+        "subcategoria": {
+            "id": 36,
+            "nombre": "Monedero",
+            "categoria_id": 56,
+            "categoria": {
+                "id": 56,
+                "nombre": " Accesorios Femeninos"
+            }
+        },
+        "tallas": [
+            {
+                "id": 9,
+                "nombre": "Unitalla",
+                "stock": 6
+            }
+        ]
+    },
+    {
+        "id": 114,
+        "nombre": "Sudadera verde para dama",
+        "descripcion": "Cómoda, moderna y versátil, esta sudadera verde para dama es perfecta para quienes buscan un look relajado sin perder el estilo.",
+        "precio": "240.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753171275/productos/producto_1753171274207.jpg",
+        "stock": 6,
+        "fecha_creacion": "2025-07-22T08:01:18.573Z",
+        "color": "Verde",
+        "subcategoria_id": 37,
+        "subcategoria": {
+            "id": 37,
+            "nombre": "Sudadera ",
+            "categoria_id": 51,
+            "categoria": {
+                "id": 51,
+                "nombre": "Abrigos"
+            }
+        },
+        "tallas": [
+            {
+                "id": 3,
+                "nombre": "G",
+                "stock": 6
+            }
+        ]
+    },
+    {
+        "id": 115,
+        "nombre": "Camisa dama",
+        "descripcion": " ligera de color rosa combina el confort de una sudadera con el corte moderno de una sobrecamisa. ",
+        "precio": "230.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753171443/productos/producto_1753171442126.jpg",
+        "stock": 9,
+        "fecha_creacion": "2025-07-22T08:04:07.332Z",
+        "color": "Rosa",
+        "subcategoria_id": 35,
+        "subcategoria": {
+            "id": 35,
+            "nombre": "Camisa",
+            "categoria_id": 50,
+            "categoria": {
+                "id": 50,
+                "nombre": "Ropa exterior"
+            }
+        },
+        "tallas": [
+            {
+                "id": 3,
+                "nombre": "G",
+                "stock": 7
+            },
+            {
+                "id": 2,
+                "nombre": "M",
+                "stock": 2
+            }
+        ]
+    },
+    {
+        "id": 116,
+        "nombre": "Vestido verde texturizado",
+        "descripcion": "Este vestido verde con textura es una prenda que combina elegancia, estilo y comodidad. Su tejido texturizado le da un acabado visual interesante y un tacto suave, ideal para quienes buscan una opción diferente al vestido liso tradicional. Perfecto para destacar con un look moderno y sofisticado.",
+        "precio": "420.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753171573/productos/producto_1753171572879.jpg",
+        "stock": 4,
+        "fecha_creacion": "2025-07-22T08:06:18.716Z",
+        "color": "Verde",
+        "subcategoria_id": 11,
+        "subcategoria": {
+            "id": 11,
+            "nombre": "Vestido Casual",
+            "categoria_id": 7,
+            "categoria": {
+                "id": 7,
+                "nombre": "Vestidos"
+            }
+        },
+        "tallas": [
+            {
+                "id": 3,
+                "nombre": "G",
+                "stock": 4
+            }
+        ]
+    },
+    {
+        "id": 117,
+        "nombre": "Vestido Rojo Casual para Dama",
+        "descripcion": "Este vestido rojo casual es una prenda vibrante y femenina, ideal para el día a día. Su diseño cómodo y favorecedor lo convierte en una excelente opción para salidas informales, reuniones, citas o simplemente para lucir con estilo sin esfuerzo. El color rojo le aporta energía y seguridad a tu look.",
+        "precio": "340.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753171758/productos/producto_1753171757457.jpg",
+        "stock": 13,
+        "fecha_creacion": "2025-07-22T08:09:22.631Z",
+        "color": "Rojo",
+        "subcategoria_id": 11,
+        "subcategoria": {
+            "id": 11,
+            "nombre": "Vestido Casual",
+            "categoria_id": 7,
+            "categoria": {
+                "id": 7,
+                "nombre": "Vestidos"
+            }
+        },
+        "tallas": [
+            {
+                "id": 2,
+                "nombre": "M",
+                "stock": 6
+            },
+            {
+                "id": 3,
+                "nombre": "G",
+                "stock": 7
+            }
+        ]
+    },
+    {
+        "id": 118,
+        "nombre": "Pantalon de mezclilla ",
+        "descripcion": "Un básico indispensable en el guardarropa femenino. Este pantalón de mezclilla combina estilo, comodidad y versatilidad. Su diseño clásico lo hace perfecto para cualquier ocasión: desde un look casual con tenis hasta un estilo más elegante con tacones o botines.",
+        "precio": "300.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753171934/productos/producto_1753171933411.jpg",
+        "stock": 6,
+        "fecha_creacion": "2025-07-22T08:12:27.980Z",
+        "color": "Azul",
+        "subcategoria_id": 34,
+        "subcategoria": {
+            "id": 34,
+            "nombre": "Pantalones",
+            "categoria_id": 57,
+            "categoria": {
+                "id": 57,
+                "nombre": "Moda Femenina"
+            }
+        },
+        "tallas": [
+            {
+                "id": 2,
+                "nombre": "M",
+                "stock": 6
+            }
+        ]
+    },
+    {
+        "id": 119,
+        "nombre": "Blusa verde dama",
+        "descripcion": "Esta blusa verde es una prenda versátil y elegante que aporta frescura y estilo a cualquier outfit. Su color transmite armonía y naturalidad, haciéndola perfecta para looks casuales o formales según cómo la combines.",
+        "precio": "150.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753172136/productos/producto_1753172134939.jpg",
+        "stock": 12,
+        "fecha_creacion": "2025-07-22T08:17:11.920Z",
+        "color": "Verde",
+        "subcategoria_id": 30,
+        "subcategoria": {
+            "id": 30,
+            "nombre": "Blusas dama",
+            "categoria_id": 8,
+            "categoria": {
+                "id": 8,
+                "nombre": "Blusas"
+            }
+        },
+        "tallas": [
+            {
+                "id": 1,
+                "nombre": "CH",
+                "stock": 12
+            }
+        ]
+    },
+    {
+        "id": 120,
+        "nombre": "Sudadera negra para dama",
+        "descripcion": "Clásica, versátil y cómoda, esta sudadera negra es una prenda imprescindible en el guardarropa femenino. Ideal para el día a día, su diseño combina estilo y funcionalidad, adaptándose a cualquier tipo de outfit: casual, deportivo o urbano.",
+        "precio": "380.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753172538/productos/producto_1753172537286.jpg",
+        "stock": 6,
+        "fecha_creacion": "2025-07-22T08:23:07.398Z",
+        "color": "Negro",
+        "subcategoria_id": 37,
+        "subcategoria": {
+            "id": 37,
+            "nombre": "Sudadera ",
+            "categoria_id": 51,
+            "categoria": {
+                "id": 51,
+                "nombre": "Abrigos"
+            }
+        },
+        "tallas": [
+            {
+                "id": 3,
+                "nombre": "G",
+                "stock": 6
+            }
+        ]
+    },
+    {
+        "id": 121,
+        "nombre": "Pantalon casual de vestir",
+        "descripcion": "Clásica, versátil y cómoda, esta sudadera negra es una prenda imprescindible en el guardarropa femenino. Ideal para el día a día, su diseño combina estilo y funcionalidad, adaptándose a cualquier tipo de outfit: casual, deportivo o urbano.",
+        "precio": "320.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753172702/productos/producto_1753172701363.jpg",
+        "stock": 8,
+        "fecha_creacion": "2025-07-22T08:25:07.910Z",
+        "color": "Rosa",
+        "subcategoria_id": 34,
+        "subcategoria": {
+            "id": 34,
+            "nombre": "Pantalones",
+            "categoria_id": 57,
+            "categoria": {
+                "id": 57,
+                "nombre": "Moda Femenina"
+            }
+        },
+        "tallas": [
+            {
+                "id": 3,
+                "nombre": "G",
+                "stock": 8
+            }
+        ]
+    },
+    {
+        "id": 122,
+        "nombre": "Falda estampado",
+        "descripcion": "Moderna y versátil, esta falda con estampado blanco y negro es una prenda que destaca por su elegancia atemporal. Su diseño en tonos neutros permite múltiples combinaciones, desde un look clásico con camisa blanca hasta un conjunto más atrevido con colores vibrantes.",
+        "precio": "200.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753172929/productos/producto_1753172923125.jpg",
+        "stock": 5,
+        "fecha_creacion": "2025-07-22T08:28:53.857Z",
+        "color": "Estampado",
+        "subcategoria_id": 29,
+        "subcategoria": {
+            "id": 29,
+            "nombre": "Faldas femeninas",
+            "categoria_id": 54,
+            "categoria": {
+                "id": 54,
+                "nombre": "Faldas"
+            }
+        },
+        "tallas": [
+            {
+                "id": 2,
+                "nombre": "M",
+                "stock": 3
+            },
+            {
+                "id": 3,
+                "nombre": "G",
+                "stock": 2
+            }
+        ]
+    },
+    {
+        "id": 123,
+        "nombre": "Blusa casual estampada",
+        "descripcion": "Esta blusa estampada casual es una prenda fresca, cómoda y con mucha personalidad. Su diseño lleno de color o patrones suaves la convierte en una opción ideal para quienes buscan destacar con estilo sin perder la comodidad del día a día.",
+        "precio": "200.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753173110/productos/producto_1753173108560.jpg",
+        "stock": 22,
+        "fecha_creacion": "2025-07-22T08:31:55.374Z",
+        "color": "Estampado",
+        "subcategoria_id": 30,
+        "subcategoria": {
+            "id": 30,
+            "nombre": "Blusas dama",
+            "categoria_id": 8,
+            "categoria": {
+                "id": 8,
+                "nombre": "Blusas"
+            }
+        },
+        "tallas": [
+            {
+                "id": 3,
+                "nombre": "G",
+                "stock": 10
+            },
+            {
+                "id": 2,
+                "nombre": "M",
+                "stock": 12
+            }
+        ]
+    },
+    {
+        "id": 124,
+        "nombre": "Mochila multicolor",
+        "descripcion": "Llena de estilo y personalidad, esta mochila multicolor es perfecta para mujeres que aman los accesorios llamativos y funcionales. Con una combinación vibrante de colores, es ideal para destacar cualquier outfit casual o urbano. Espaciosa, cómoda y moderna, se adapta a tu rutina diaria con alegría y actitud.",
+        "precio": "230.00",
+        "imagen": "https://res.cloudinary.com/dgbs7sg9j/image/upload/v1753173301/productos/producto_1753173300614.jpg",
+        "stock": 1,
+        "fecha_creacion": "2025-07-22T08:35:05.332Z",
+        "color": "Multicolor",
+        "subcategoria_id": 32,
+        "subcategoria": {
+            "id": 32,
+            "nombre": "Mochilas",
+            "categoria_id": 56,
+            "categoria": {
+                "id": 56,
+                "nombre": " Accesorios Femeninos"
+            }
+        },
+        "tallas": [
+            {
+                "id": 9,
+                "nombre": "Unitalla",
+                "stock": 1
+            }
+        ]
+    }
+]

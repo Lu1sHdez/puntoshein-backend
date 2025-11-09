@@ -1,0 +1,21 @@
+[24/10/2025, 19:15:24] INFO: Inicio de sesión exitoso {"usuario_id":"2b76e73a-2073-438b-b39f-ac2b7e152d4d","correo":"luis2004hdez@gmail.com","ip_cliente":"::ffff:127.0.0.1","fecha_hora":"24/10/2025, 19:15:24"}
+[24/10/2025, 19:18:42] INFO: Sesión cerrada {"ip_cliente":"::ffff:127.0.0.1"}
+[24/10/2025, 19:19:01] INFO: Inicio de sesión exitoso {"usuario_id":"2b76e73a-2073-438b-b39f-ac2b7e152d4d","correo":"luis2004hdez@gmail.com","ip_cliente":"::ffff:127.0.0.1","fecha_hora":"24/10/2025, 19:19:01"}
+[24/10/2025, 19:19:43] INFO: Sesión cerrada {"ip_cliente":"::ffff:127.0.0.1"}
+[25/10/2025, 0:57:11] INFO: Inicio de sesión exitoso {"usuario_id":"2b76e73a-2073-438b-b39f-ac2b7e152d4d","correo":"luis2004hdez@gmail.com","ip_cliente":"::ffff:127.0.0.1","fecha_hora":"25/10/2025, 0:57:11"}
+[25/10/2025, 0:58:13] INFO: Sesión cerrada {"ip_cliente":"::ffff:127.0.0.1"}
+[25/10/2025, 1:00:08] INFO: Inicio de sesión exitoso {"usuario_id":"2b76e73a-2073-438b-b39f-ac2b7e152d4d","correo":"luis2004hdez@gmail.com","ip_cliente":"::ffff:127.0.0.1","fecha_hora":"25/10/2025, 1:00:08"}
+[25/10/2025, 1:02:50] INFO: Sesión cerrada {"ip_cliente":"::ffff:127.0.0.1"}
+[25/10/2025, 1:11:12] INFO: Inicio de sesión exitoso {"usuario_id":"aa7aeedc-9050-4532-bca4-3993bd631471","correo":"20221061@uthh.edu.mx","ip_cliente":"::ffff:127.0.0.1","fecha_hora":"25/10/2025, 1:11:12"}
+[25/10/2025, 1:11:23] INFO: Sesión cerrada {"ip_cliente":"::ffff:127.0.0.1"}
+[25/10/2025, 1:13:12] INFO: Inicio de sesión exitoso {"usuario_id":"aa7aeedc-9050-4532-bca4-3993bd631471","correo":"20221061@uthh.edu.mx","ip_cliente":"::ffff:127.0.0.1","fecha_hora":"25/10/2025, 1:13:12"}
+[25/10/2025, 1:13:18] INFO: Sesión cerrada {"ip_cliente":"::ffff:127.0.0.1"}
+[25/10/2025, 1:14:57] ERROR: Credenciales inválidas - Contraseña incorrecta {"codigo_error":"400","ip_cliente":"::ffff:127.0.0.1","usuario":"20221061@uthh.edu.mx"}
+[25/10/2025, 1:15:10] ERROR: Credenciales inválidas - Contraseña incorrecta {"codigo_error":"400","ip_cliente":"::ffff:127.0.0.1","usuario":"20221061@uthh.edu.mx"}
+[25/10/2025, 1:15:14] ERROR: Credenciales inválidas - Contraseña incorrecta {"codigo_error":"400","ip_cliente":"::ffff:127.0.0.1","usuario":"20221061@uthh.edu.mx"}
+[25/10/2025, 1:15:24] INFO: Inicio de sesión exitoso {"usuario_id":"aa7aeedc-9050-4532-bca4-3993bd631471","correo":"20221061@uthh.edu.mx","ip_cliente":"::ffff:127.0.0.1","fecha_hora":"25/10/2025, 1:15:24"}
+[25/10/2025, 1:15:49] INFO: Sesión cerrada {"ip_cliente":"::ffff:127.0.0.1"}
+[25/10/2025, 1:25:09] INFO: Inicio de sesión exitoso {"usuario_id":"aa7aeedc-9050-4532-bca4-3993bd631471","correo":"20221061@uthh.edu.mx","ip_cliente":"::ffff:127.0.0.1","fecha_hora":"25/10/2025, 1:25:09"}
+[25/10/2025, 1:25:14] INFO: Sesión cerrada {"ip_cliente":"::ffff:127.0.0.1"}
+[25/10/2025, 1:27:16] INFO: Inicio de sesión exitoso {"usuario_id":"aa7aeedc-9050-4532-bca4-3993bd631471","correo":"20221061@uthh.edu.mx","ip_cliente":"::ffff:127.0.0.1","fecha_hora":"25/10/2025, 1:27:16"}
+[25/10/2025, 1:27:18] INFO: Sesión cerrada {"ip_cliente":"::ffff:127.0.0.1"}

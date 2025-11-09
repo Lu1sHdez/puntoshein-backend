@@ -1,0 +1,5 @@
+[18/6/2025, 23:25:14] INFO: Sesión cerrada {"ip_cliente":"::ffff:127.0.0.1"}
+[18/6/2025, 23:25:14] INFO: Sesión cerrada {"ip_cliente":"::ffff:127.0.0.1"}
+[18/6/2025, 23:25:33] ERROR: Credenciales inválidas - Contraseña incorrecta {"codigo_error":"400","ip_cliente":"::ffff:127.0.0.1","usuario":"luis2004hdez@gmail.com"}
+[18/6/2025, 23:25:38] INFO: Inicio de sesión exitoso {"usuario_id":"2b76e73a-2073-438b-b39f-ac2b7e152d4d","correo":"luis2004hdez@gmail.com","ip_cliente":"::ffff:127.0.0.1","fecha_hora":"18/6/2025, 23:25:38"}
+[19/6/2025, 10:48:41] INFO: Inicio de sesión exitoso {"usuario_id":"2b76e73a-2073-438b-b39f-ac2b7e152d4d","correo":"luis2004hdez@gmail.com","ip_cliente":"::ffff:127.0.0.1","fecha_hora":"19/6/2025, 10:48:41"}
