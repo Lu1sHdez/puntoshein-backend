@@ -49,7 +49,7 @@ const Cliente = sequelize.define(
     genero: {
       type: DataTypes.ENUM("H", "M", "Otro"),
       allowNull: true,
-    },
+    },  
   },
   {
     tableName: "clientes",

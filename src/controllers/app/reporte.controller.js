@@ -6,153 +6,197 @@ import Cliente from "../../models/app/cliente.model.js";
 import EstadoPedido from "../../models/app/estado.model.js";
 
 export const obtenerReportesGenerales = async (req, res) => {
-    try {
-      // Ventas totales y ganancias
-      const pedidosEntregados = await Pedido.findAll({
-        where: { "$EstadoPedido.estado$": "Entregado" },
-        include: [
-          { model: EstadoPedido, attributes: ["estado"] },
-          { model: DetallePedido, attributes: ["nombre_producto", "precio", "costo", "cantidad"] },
-        ],
-      });
-  
-      let totalVentas = 0;
-      let totalGanancia = 0;
-      let productosVendidos = {};
-  
-      pedidosEntregados.forEach((p) => {
-        totalVentas += Number(p.total);
-        p.DetallePedidos.forEach((d) => {
-          const precioVenta = Number(d.precio) * d.cantidad;
-          const costoCompra = Number(d.costo || 0) * d.cantidad;
-          totalGanancia += precioVenta - costoCompra;
-  
-          // Contar productos más vendidos
-          if (!productosVendidos[d.nombre_producto]) {
-            productosVendidos[d.nombre_producto] = 0;
-          }
-          productosVendidos[d.nombre_producto] += d.cantidad;
-        });
-      });
-  
-      // Top 5 productos más vendidos
-      const topProductos = Object.entries(productosVendidos)
-        .map(([nombre, ventas]) => ({ nombre, ventas }))
-        .sort((a, b) => b.ventas - a.ventas)
-        .slice(0, 5);
-  
-      // Clientes nuevos (último mes)
-      const inicioMes = new Date();
-      inicioMes.setDate(1);
-      const clientesNuevos = await Cliente.count({
-        where: { createdAt: { [Op.gte]: inicioMes } },
-      });
-  
-      const clientesTotales = await Cliente.count();
-  
-      // Pedidos entregados y en proceso
-      const entregados = pedidosEntregados.length;
-      const enProceso = await Pedido.count({
-        include: [
-          { model: EstadoPedido, where: { estado: { [Op.ne]: "Entregado" } } },
-        ],
-      });
-  
-      // Ticket promedio
-      const ticketPromedio = entregados
-        ? (totalVentas / entregados).toFixed(2)
-        : 0;
-  
-      // Simular comparación mensual
-      const crecimientoMensual = "+8%"; // Puedes calcularlo con ventas previas
-  
-      res.status(200).json({
-        totalVentas: totalVentas.toFixed(2),
-        totalGanancia: totalGanancia.toFixed(2),
-        ticketPromedio,
-        entregados,
-        enProceso,
-        clientesTotales,
-        clientesNuevos,
-        topProductos,
-        crecimientoMensual,
-      });
-    } catch (error) {
-      console.error("Error al obtener reportes:", error);
-      res.status(500).json({ mensaje: "Error interno del servidor." });
-    }
-  };
+  try {
+    // Obtener pedidos entregados
+    const pedidosEntregados = await Pedido.findAll({
+      where: { "$EstadoPedido.estado$": "Entregado" },
+      include: [
+        { model: EstadoPedido, attributes: ["estado"] },
+        { model: DetallePedido, attributes: ["nombre_producto", "precio", "costo", "cantidad"] },
+      ],
+    });
 
-// controllers/app/reporte.controller.js
-export const obtenerReporteVentasDetallado = async (req, res) => {
-    try {
-      // 🔹 Solo pedidos ENTREGADOS (ventas reales)
-      const pedidos = await Pedido.findAll({
-        include: [
-          {
-            model: EstadoPedido,
-            where: { estado: "Entregado" },
-            attributes: ["estado"],
-          },
-          { model: Cliente, attributes: ["nombre", "apellido_paterno"] },
-          {
-            model: DetallePedido,
-            attributes: ["nombre_producto", "cantidad", "precio", "costo"],
-          },
-        ],
-        order: [["createdAt", "DESC"]],
-      });
-  
-      // --- MÉTRICAS GLOBALES ---
-      let totalVentas = 0;
-      let totalGanancia = 0;
-      let ventasPorMes = {};
-      let ventasPorMetodo = {};
-      let ventasPorEstado = {};
-      let productosVendidos = {};
-  
-      pedidos.forEach((p) => {
-        const totalPedido = Number(p.total);
-        const estado = p.EstadoPedidos?.[0]?.estado || "Entregado";
-        const mes = new Date(p.createdAt).toLocaleString("es-MX", { month: "short" });
-        const metodo = p.metodoPago || "Sin especificar";
-  
+    // Inicialización de variables
+    let totalVentas = 0;
+    let totalGanancia = 0;
+    let productosVendidos = {};
+
+    // Calcular totalVentas, totalGanancia y productosVendidos
+    pedidosEntregados.forEach((p) => {
+      // Verificar si 'p.total' es un número válido
+      const totalPedido = Number(p.total);
+      if (!isNaN(totalPedido)) {
         totalVentas += totalPedido;
-  
-        // 🔸 Agrupar métricas
-        ventasPorMes[mes] = (ventasPorMes[mes] || 0) + totalPedido;
-        ventasPorMetodo[metodo] = (ventasPorMetodo[metodo] || 0) + totalPedido;
-        ventasPorEstado[estado] = (ventasPorEstado[estado] || 0) + 1;
-  
-        // 🔸 Calcular ganancia por detalle
-        p.DetallePedidos.forEach((d) => {
-          const precioVenta = Number(d.precio) * d.cantidad;
-          const costoCompra = Number(d.costo || 0) * d.cantidad;
+      }
+
+      p.DetallePedidos.forEach((d) => {
+        const precioVenta = Number(d.precio) * d.cantidad;
+        const costoCompra = Number(d.costo || 0) * d.cantidad;
+
+        // Verificar que los cálculos no sean NaN
+        if (!isNaN(precioVenta) && !isNaN(costoCompra)) {
           totalGanancia += precioVenta - costoCompra;
-  
-          // Contar productos
-          productosVendidos[d.nombre_producto] =
-            (productosVendidos[d.nombre_producto] || 0) + d.cantidad;
-        });
+        }
+
+        // Contar productos más vendidos
+        if (!productosVendidos[d.nombre_producto]) {
+          productosVendidos[d.nombre_producto] = 0;
+        }
+        productosVendidos[d.nombre_producto] += d.cantidad;
       });
-  
-      const topProductos = Object.entries(productosVendidos)
-        .map(([nombre, cantidad]) => ({ nombre, cantidad }))
-        .sort((a, b) => b.cantidad - a.cantidad)
-        .slice(0, 5);
-  
-      res.status(200).json({
-        tipoReporte: "ventasEntregadas",
-        totalVentas: totalVentas.toFixed(2),
-        totalGanancia: totalGanancia.toFixed(2),
-        ventasPorMes,
-        ventasPorMetodo,
-        ventasPorEstado,
-        topProductos,
-      });
-    } catch (error) {
-      console.error("Error al generar reporte detallado:", error);
-      res.status(500).json({ mensaje: "Error interno del servidor." });
+    });
+
+    // Obtener los 5 productos más vendidos
+    const topProductos = Object.entries(productosVendidos)
+      .map(([nombre, ventas]) => ({ nombre, ventas }))
+      .sort((a, b) => b.ventas - a.ventas)
+      .slice(0, 5);
+
+    // Obtener clientes nuevos (último mes)
+    const inicioMes = new Date();
+    inicioMes.setDate(1);
+    const clientesNuevos = await Cliente.count({
+      where: { createdAt: { [Op.gte]: inicioMes } },
+    });
+
+    const clientesTotales = await Cliente.count();
+
+    // Obtener pedidos entregados y en proceso
+    const entregados = pedidosEntregados.length;
+    const enProceso = await Pedido.count({
+      include: [
+        { model: EstadoPedido, where: { estado: { [Op.ne]: "Entregado" } } },
+      ],
+    });
+
+    // Cálculo del ticket promedio
+    const ticketPromedio = entregados
+      ? (totalVentas / entregados).toFixed(2)
+      : 0;
+
+    // Simulación del cálculo de crecimiento mensual (puedes calcularlo con ventas anteriores)
+    const crecimientoMensual = "+8%";  // Aquí podrías integrar una lógica real para calcular el crecimiento
+
+    // Enviar respuesta con los reportes
+    res.status(200).json({
+      totalVentas: totalVentas.toFixed(2),
+      totalGanancia: totalGanancia.toFixed(2),
+      ticketPromedio,
+      entregados,
+      enProceso,
+      clientesTotales,
+      clientesNuevos,
+      topProductos,
+      crecimientoMensual,
+    });
+  } catch (error) {
+    console.error("Error al obtener reportes:", error);
+    res.status(500).json({ mensaje: "Error interno del servidor." });
+  }
+};
+
+
+export const obtenerReporteVentasDetallado = async (req, res) => {
+  try {
+    const { periodo = "general" } = req.query;
+
+    const whereFecha = {};
+
+    const hoy = new Date();
+    const inicioSemana = new Date();
+    inicioSemana.setDate(hoy.getDate() - 7);
+
+    const inicioMes = new Date(hoy.getFullYear(), hoy.getMonth(), 1);
+
+    // Filtros de fecha
+    if (periodo === "dia") {
+      whereFecha.createdAt = {
+        [Op.gte]: new Date(hoy.setHours(0, 0, 0, 0)), // Inicio del día
+        [Op.lt]: new Date(hoy.setHours(23, 59, 59, 999)) // Fin del día
+      };
+    } else if (periodo === "semana") {
+      whereFecha.createdAt = { [Op.gte]: inicioSemana };
+    } else if (periodo === "mes") {
+      whereFecha.createdAt = { [Op.gte]: inicioMes };
     }
-  };
-  
+
+    // Solo entregados
+    const pedidos = await Pedido.findAll({
+      where: whereFecha,
+      include: [
+        {
+          model: EstadoPedido,
+          where: { estado: "Entregado" },
+          attributes: ["estado"]
+        },
+        {
+          model: DetallePedido,
+          attributes: ["nombre_producto", "cantidad", "precio", "costo"]
+        }
+      ],
+      order: [["createdAt", "ASC"]]
+    });
+
+    // --- ACUMULADORES ---
+    let totalVentas = 0;
+    let totalGanancia = 0;
+    let ventasPorPeriodo = {};
+    let productosVendidos = {};
+
+    pedidos.forEach((p) => {
+      const fecha = new Date(p.createdAt);
+
+      let clavePeriodo;
+
+      switch (periodo) {
+        case "dia":
+          clavePeriodo = fecha.toLocaleString("es-MX", { hour: "2-digit" });
+          break;
+
+        case "semana":
+          clavePeriodo = fecha.toLocaleString("es-MX", { weekday: "short" });
+          break;
+
+        case "mes":
+          clavePeriodo = fecha.getDate(); // Día numérico del mes
+          break;
+
+        case "general":
+        default:
+          clavePeriodo = fecha.toLocaleString("es-MX", { month: "short" });
+      }
+
+      const totalPedido = Number(p.total);
+      totalVentas += totalPedido;
+      ventasPorPeriodo[clavePeriodo] =
+        (ventasPorPeriodo[clavePeriodo] || 0) + totalPedido;
+
+      // Ganancia
+      p.DetallePedidos.forEach((d) => {
+        const venta = Number(d.precio) * d.cantidad;
+        const costo = Number(d.costo || 0) * d.cantidad;
+        totalGanancia += venta - costo;
+
+        productosVendidos[d.nombre_producto] =
+          (productosVendidos[d.nombre_producto] || 0) + d.cantidad;
+      });
+    });
+
+    const topProductos = Object.entries(productosVendidos)
+      .map(([nombre, cantidad]) => ({ nombre, cantidad }))
+      .sort((a, b) => b.cantidad - a.cantidad)
+      .slice(0, 5);
+
+    res.status(200).json({
+      tipoReporte: periodo,
+      totalVentas: totalVentas.toFixed(2),
+      totalGanancia: totalGanancia.toFixed(2),
+      ventasPorPeriodo,
+      topProductos
+    });
+
+  } catch (error) {
+    console.error("Error en reporte:", error);
+    res.status(500).json({ mensaje: "Error interno." });
+  }
+};
