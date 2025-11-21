@@ -21,7 +21,7 @@ dotenv.config();
   }
 })();
 
- /*  // === Importar TODOS los modelos ===
+  // === Importar TODOS los modelos ===
   import "../models/app/cliente.model.js";
   import "../models/app/detallePedido.model.js";
   import "../models/app/estado.model.js";
@@ -53,7 +53,7 @@ dotenv.config();
   import "../models/usuario.model.js"; 
 // Sincronizar todas las tablas
 
-import "../models/usuario.model.js"; */
+import "../models/usuario.model.js"; 
 
 import "../models/documentoLegal.model.js";
 

@@ -1,4 +1,4 @@
-import admin from "../config/firebase.js";
+/* import admin from "../config/firebase.js";
 
 export const enviarNotificacionStock = async (token, titulo, cuerpo) => {
   const mensaje = {
@@ -16,3 +16,4 @@ export const enviarNotificacionStock = async (token, titulo, cuerpo) => {
     console.error("Error al enviar notificación:", error);
   }
 };
+ */

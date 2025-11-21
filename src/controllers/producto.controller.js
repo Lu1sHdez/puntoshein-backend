@@ -6,7 +6,8 @@ import ProductoTalla from '../models/productoTalla.model.js';
 import Talla from "../models/tallas.model.js";
 import Venta from "../models/ventas.model.js";
 import TokenDispositivo from "../models/tokenDispositivo.model.js";
-import { enviarNotificacionStock } from "../utils/notificaciones.js";
+/* import { enviarNotificacionStock } from "../utils/notificaciones.js";
+ */
 import cloudinary from '../config/cloudinary.config.js';
 import fs from 'fs';
 
@@ -628,7 +629,6 @@ export const notificaciones = async (req, res) => {
     res.status(500).json({ mensaje: "Error al enviar notificaciones" });
   }
 };
-
 
 export const crearProducto = async (req, res) => {
   const { nombre, descripcion, color, precio, imagen, subcategoria_id, tallas = [] } = req.body;

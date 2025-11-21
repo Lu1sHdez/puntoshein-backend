@@ -95,7 +95,6 @@ export const obtenerReportesGenerales = async (req, res) => {
   }
 };
 
-
 export const obtenerReporteVentasDetallado = async (req, res) => {
   try {
     const { periodo = "general" } = req.query;

@@ -1,4 +1,4 @@
-import admin from "firebase-admin";
+/* import admin from "firebase-admin";
 import dotenv from "dotenv";
 dotenv.config();
 
@@ -11,3 +11,4 @@ admin.initializeApp({
 });
 
 export default admin;
+ */

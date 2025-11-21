@@ -43,7 +43,9 @@ app.set("trust proxy", true);
 
 
 const allowedOrigins = [
+  "http://192.168.1.71:4000",
   "http://localhost:3000",
+  "http://localhost:8081",
   "https://punto-shein.vercel.app",
 ];
 
