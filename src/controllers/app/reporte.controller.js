@@ -107,11 +107,16 @@ export const obtenerReporteVentasDetallado = async (req, res) => {
 
     const inicioMes = new Date(hoy.getFullYear(), hoy.getMonth(), 1);
 
-    // Filtros de fecha
     if (periodo === "dia") {
+      const inicioDia = new Date();
+      inicioDia.setHours(0, 0, 0, 0);
+    
+      const finDia = new Date();
+      finDia.setHours(23, 59, 59, 999);
+    
       whereFecha.createdAt = {
-        [Op.gte]: new Date(hoy.setHours(0, 0, 0, 0)), // Inicio del día
-        [Op.lt]: new Date(hoy.setHours(23, 59, 59, 999)) // Fin del día
+        [Op.gte]: inicioDia,
+        [Op.lt]: finDia
       };
     } else if (periodo === "semana") {
       whereFecha.createdAt = { [Op.gte]: inicioSemana };
