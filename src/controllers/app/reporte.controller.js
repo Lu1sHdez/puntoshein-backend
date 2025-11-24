@@ -150,24 +150,28 @@ export const obtenerReporteVentasDetallado = async (req, res) => {
     pedidos.forEach((p) => {
       const fecha = new Date(p.createdAt);
 
+      const fechaMX = new Date(
+        fecha.toLocaleString("en-US", { timeZone: "America/Mexico_City" })
+      );
+
       let clavePeriodo;
 
       switch (periodo) {
         case "dia":
-          clavePeriodo = fecha.toLocaleString("es-MX", { hour: "2-digit", minute: "2-digit", hour12: true });
+          clavePeriodo = fechaMX.toLocaleString("es-MX", { hour: "2-digit", minute: "2-digit", hour12: true });
           break;
 
         case "semana":
-          clavePeriodo = fecha.toLocaleString("es-MX", { weekday: "short" });
+          clavePeriodo = fechaMX.toLocaleString("es-MX", { weekday: "short" });
           break;
 
         case "mes":
-          clavePeriodo = fecha.getDate(); // Día numérico del mes
+          clavePeriodo = fechaMX.getDate(); // Día numérico del mes
           break;
 
         case "general":
         default:
-          clavePeriodo = fecha.toLocaleString("es-MX", { month: "short" });
+          clavePeriodo = fechaMX.toLocaleString("es-MX", { month: "short" });
       }
 
       const totalPedido = Number(p.total);
