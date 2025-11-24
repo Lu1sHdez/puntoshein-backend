@@ -166,7 +166,7 @@ export const obtenerReporteVentasDetallado = async (req, res) => {
           break;
 
         case "mes":
-          clavePeriodo = fechaMX.getDate(); // Día numérico del mes
+          clavePeriodo = fechaMX.getDate();
           break;
 
         case "general":
