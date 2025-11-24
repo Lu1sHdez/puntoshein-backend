@@ -154,8 +154,7 @@ export const obtenerReporteVentasDetallado = async (req, res) => {
 
       switch (periodo) {
         case "dia":
-          clavePeriodo = fecha.toLocaleString("es-MX", { hour: "2-digit", minute: "2-digit", hour12: true 
-          });
+          clavePeriodo = fecha.toLocaleString("es-MX", { hour: "2-digit", minute: "2-digit", hour12: true });
           break;
 
         case "semana":
